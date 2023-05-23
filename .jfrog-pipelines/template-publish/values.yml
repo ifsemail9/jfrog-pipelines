@@ -1,11 +1,11 @@
 templateRepository:
   gitProvider: myGitIntegration
-  path: "jfrog/jfrog-pipelines"
-  branch: master
+  path: "ifsemail9/jfrog-pipelines"
+  branch: main
   templateFolder: templates/artifactory/cleanup/artifact-cleanup
 
 publishTemplate:
-  namespace: myCompany
+  namespace: ifs
   name: artifactCleanup
   version: 1.0.0
   pipelineName: publish_artifact_cleanup_template
